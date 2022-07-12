@@ -3,8 +3,8 @@ import java.util.Iterator;
 
 public class RandomIterator implements Iterator<Integer> {
     Randoms randoms;
-    private final int addConst; // Переменные доавлены для упрощения вычисления
-    private final int randomConst;  // И для того, чтобы не вычислять одни и те же значения на каждом шаге итератора
+    private final int addConst; // Переменные добавлены для упрощения вычисления
+    private final int randomConst;  // Чтобы не вычислять одни и те же значения на каждом шаге итератора
 
     public RandomIterator(Randoms randoms) {
         this.randoms = randoms;
